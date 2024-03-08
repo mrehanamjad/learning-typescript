@@ -23,11 +23,11 @@ console.log(bigNumber);
 console.log(anotherBigNumber);
 
 //! Assignment
-let Sum = bigNumber + anotherBigNumber;
+let Sum:bigint = bigNumber + anotherBigNumber;
 console.log(`sum = ${Sum}`);
-let Difference = bigNumber - anotherBigNumber;
+let Difference:bigint = bigNumber - anotherBigNumber;
 console.log(`Difference = ${Difference}`);
-let Product = bigNumber * anotherBigNumber;
+let Product:bigint = bigNumber * anotherBigNumber;
 console.log(`Product = ${Product}`);
-let Division = bigNumber / anotherBigNumber;
+let Division:bigint = bigNumber / anotherBigNumber;
 console.log(`Division = ${Division}`);
