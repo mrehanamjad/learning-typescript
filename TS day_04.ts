@@ -22,7 +22,7 @@ console.log(n);
 // ? Declare two variables str1 and str2 of type string and assign them different sentences. Compare the two strings and store the result (true or false) in a variable called areEqual.
 let str1 = "abcd";
 let str2 = "hijk";
-let areEqual = str1 == str2;
+let areEqual:boolean = str1 == str2;
 console.log(areEqual);
 
 console.log(n);
