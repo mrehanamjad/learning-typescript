@@ -18,7 +18,7 @@ console.log(isDivisibleBy4And8(22));
 console.log(n5);
 //BigInt:
 let bigNumber: bigint = 9007199254740991n;
-let anotherBigNumber: bigint = BigInt("9007199254740991n");
+let anotherBigNumber: bigint = BigInt("9007199254740991");
 console.log(bigNumber);
 console.log(anotherBigNumber);
 
