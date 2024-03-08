@@ -18,16 +18,16 @@ console.log(isDivisibleBy4And8(22));
 console.log(n5);
 //BigInt:
 let bigNumber: bigint = 9007199254740991n;
-let anotherBigNumber: bigint = BigInt("9007199254740991n");
+let anotherBigNumber: bigint = BigInt("9007199254740991");
 console.log(bigNumber);
 console.log(anotherBigNumber);
 
 //! Assignment
-let Sum = bigNumber + anotherBigNumber;
+let Sum:bigint = bigNumber + anotherBigNumber;
 console.log(`sum = ${Sum}`);
-let Difference = bigNumber - anotherBigNumber;
+let Difference:bigint = bigNumber - anotherBigNumber;
 console.log(`Difference = ${Difference}`);
-let Product = bigNumber * anotherBigNumber;
+let Product:bigint = bigNumber * anotherBigNumber;
 console.log(`Product = ${Product}`);
-let Division = bigNumber / anotherBigNumber;
+let Division:bigint = bigNumber / anotherBigNumber;
 console.log(`Division = ${Division}`);
